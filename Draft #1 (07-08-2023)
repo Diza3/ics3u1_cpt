@@ -5,7 +5,7 @@
     as well as it does not add another 'X' to the gameBoard. 
     code formatting is very off and some of the logic is v shitty
     while(true) is not a valid condition- FIX!
-*/
+    */
 
 /* Checklist: 
 
