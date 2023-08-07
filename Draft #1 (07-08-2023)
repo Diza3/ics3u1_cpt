@@ -1,4 +1,5 @@
 // prior to hiding all characters that are not 0s or #s
+// prior to creating a new array for the playerBoard (hides most characters when displayed)
 
 // Diza Sidana  ICS3U8Ge  July 26, 2023   Ms. Kaminski
 
