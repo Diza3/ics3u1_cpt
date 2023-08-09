@@ -5,6 +5,7 @@
     as well as it does not add another 'X' to the gameBoard. 
     code formatting is very off and some of the logic is v shitty
     while(true) is not a valid condition- FIX!
+    choice variable in Main method ends program (w/ error status) if a number is not entered- turn choice variable into a String
     */
 
 /* Checklist: 
@@ -32,6 +33,11 @@
     ● Mark explored spots with a #. ✓
     ● Display a total treasure during each round. ✓ (should I re-format this?)
     ● Contain a printBoard method that will print the updated board every time the user takes a
+      turn. ✓
+    ● Have an isVacant method that will return true if the position is unexplored and false
+     otherwise ✓
+*/
+
 
 
 
