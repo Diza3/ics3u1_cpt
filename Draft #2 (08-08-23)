@@ -6,6 +6,7 @@
     code formatting is very off and some of the logic is v shitty
     while(true) is not a valid condition- FIX!
     choice variable in Main method ends program (w/ error status) if a number is not entered- turn choice variable into a String
+    ADD COMMENTS TO THE FUCKING CODE
     */
 
 /* Checklist: 
