@@ -4,6 +4,7 @@
 // YAAAAAAA IT WORKS MF
 
 /*  errors: test line 239- see if the '#' still prints
+    prevent user from moving backwards onto an already explored position 
     code formatting is very off and some of the logic is v shitty
     while(true) is not a valid condition- FIX!
     ADD COMMENTS TO THE FUCKING CODE
