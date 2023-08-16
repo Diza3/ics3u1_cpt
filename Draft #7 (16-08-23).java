@@ -1,7 +1,8 @@
 // post hiding all characters that are not 0s or #s
 // post creating a new array for the internalBoard (does not hide most characters when displayed)
 
-/*  errors: create function that prevents user from getting trapped if the spaces around it are already explored 
+/*  errors: create function that prevents user from getting trapped and unable to move if the spaces around it are already explored; make them
+    be able to escape that trap and go to the nearest '0' that also does not have explored spaces all around it so it is able to keep moving
     (already kinda made, need to clean it up a little); check new error png for error
     make user leave the island immediately after all positions have been explored
         as in the words of the genius vivian: 
