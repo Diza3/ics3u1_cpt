@@ -3,7 +3,7 @@
 
 /*  errors: create function that prevents user from getting trapped and unable to move if the spaces around it are already explored; make them
     be able to escape that trap and go to the nearest '0' that also does not have explored spaces all around it so it is able to keep moving
-    (already kinda made, need to clean it up a little); check new error png for error
+    (already kinda made (check method "stuck()"), need to clean it up a little); check new error png for error
     make user leave the island immediately after all positions have been explored
         as in the words of the genius vivian: 
             "but yea check for end-of-game conditions by checking if the board is full as well as if youre stuck
