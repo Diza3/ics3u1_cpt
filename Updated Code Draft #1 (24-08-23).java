@@ -1,3 +1,50 @@
+// post hiding all characters that are not 0s or #s
+// post creating a new array for the internalBoard (does not hide most characters when displayed)
+// done w/ kyle
+
+/*  errors: new error (16-08-23) has still not been fixed- stops working at random times
+    create function that prevents user from getting trapped and unable to move if the spaces around it are already explored; make them
+    be able to escape that trap and go to the nearest '0' that also does not have explored spaces all around it so it is able to keep moving
+    (already kinda made (check method "stuck()"), need to clean it up a little); check new error png for error
+    make user leave the island immediately after all positions have been explored
+        as in the words of the genius vivian: 
+            "but yea check for end-of-game conditions by checking if the board is full as well as if youre stuck
+            then if thats true then end the game"
+    code formatting is very off and some of the logic is v shitty
+    while(true) is not a valid condition- FIX!
+    ADD COMMENTS TO THE FUCKING CODE
+    */
+
+/* Checklist: 
+
+    ● Ask the user the number of treasures, and pirates to place on the board. ✓
+        ○ No more than 10 each. ✓
+        ○ The number of treasures cannot be more than the number of pirates. ✓
+        ○ Randomly generate their positions ✓
+    ● There will be ONE escape on the board. When the user sees a ship, they can either leave the
+        island, or stay. ✓
+        ○ If they stay on the island, the current spot is marked as explored and a new escape is generated on the board in a spot 
+            that has not been explored. ✓
+        ○ If they have explored all possible positions on the island, they HAVE to leave the island. X
+    ● Use a 2D array or an array of arrays! ✓
+
+    ● Begin game with a menu: ✓
+        1. Play game
+        2. How to play
+        3. Legend
+        4. Exit
+    ● Provide a legend for the user at any time during game play. ✓ (sort of? provide when user prompts, or provide all the time on each turn?)
+    ● Make sure that the user’s position entry is between 0 and 99, inclusive. ✓ (sort of? only lets user go W, A, S, or D; error handling correctly?)
+    ● Display the current board after each round. ✓
+    ● Unexplored spots are marked with a 0. ✓
+    ● Mark explored spots with a #. ✓
+    ● Display a total treasure during each round. ✓ (should I re-format this?)
+    ● Contain a printBoard method that will print the updated board every time the user takes a
+      turn. ✓
+    ● Have an isVacant method that will return true if the position is unexplored and false
+     otherwise ✓
+*/
+
 // Diza Sidana  ICS3U8Ge  July 26, 2023   Ms. Kaminski
 
 /* This game takes the user on an island to participate in a treasure hunt,
